@@ -105,3 +105,48 @@ body{
     color: white;
     transform: scale(0.80);
 }
+
+/* Form section */
+.container{
+    margin:0 10%;
+    /* border:2px solid white; */
+}
+.form{
+    margin: 100px 40px;
+    padding: 50px 50px;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.form__title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.form__inputs{
+    width: 100%;
+    padding:20px 0px;
+}
+.form__input{
+    background:transparent;
+    color:#fff;
+    border-radius: 5px;
+    width: 95%;
+    font-size: 0.8rem;
+    margin:5px 0px;
+    padding:5px 8px;
+    text-align: center;
+}
+.form__btn{
+    color: #fff;
+    background: transparent;
+    border-radius: 5px;
+    border-color: #fff;
+    width: 100%;
+    padding:5px 10px;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+.form__btn:hover{
+    background-color:var(--primary-color);
+}
+
